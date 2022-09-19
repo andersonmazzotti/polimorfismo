@@ -16,6 +16,17 @@ public class Polimorfismo {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        
+        Calculadora calc = new Calculadora();
+        
+        System.out.println(calc.somar(2, 2, 2));
+        
+        
+        
+        
+        
+        
     }
     
 }
