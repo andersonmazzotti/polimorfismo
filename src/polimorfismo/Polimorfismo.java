@@ -18,10 +18,21 @@ public class Polimorfismo {
         // TODO code application logic here
         
         
-        Calculadora calc = new Calculadora();
+      /*  Calculadora calc = new Calculadora();
         
         System.out.println(calc.somar(2, 2, 2));
         
+       */
+      
+      
+      Gato gato = new Gato();
+      Cachorro cachorro = new Cachorro();
+      Pato pato = new Pato();
+      
+      
+      gato.comunicar();
+      pato.comunicar();
+      cachorro.comunicar();
         
         
         
